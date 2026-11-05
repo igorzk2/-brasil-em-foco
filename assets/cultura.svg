@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#f4ead9"/><circle cx="140" cy="110" r="70" fill="#d94b3d"/><circle cx="660" cy="120" r="85" fill="#f2c94c"/>
+<path d="M0 360 Q150 260 300 360 T600 360 T800 330 V500 H0Z" fill="#087a55"/>
+<path d="M160 380 L260 200 L360 380" fill="#f5f5f5"/><path d="M440 380 L540 180 L640 380" fill="#c85b38"/>
+<text x="400" y="110" text-anchor="middle" font-family="Arial" font-size="45" font-weight="700" fill="#173c2b">CULTURA BRASILEIRA</text>
+<text x="400" y="450" text-anchor="middle" font-family="Arial" font-size="24" fill="#4c4c4c">arte • música • festas • tradições</text></svg>

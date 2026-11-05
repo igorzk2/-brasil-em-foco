@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#009c3b"/><stop offset=".55" stop-color="#006b2b"/><stop offset="1" stop-color="#002f1a"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#g)"/><circle cx="980" cy="120" r="190" fill="#ffdf00" opacity=".18"/>
+<path d="M0 550 C180 430 280 600 430 500 S720 430 850 520 S1050 600 1200 470 V700 H0Z" fill="#003b22" opacity=".8"/>
+<path d="M600 100 L850 250 L600 400 L350 250Z" fill="#ffdf00"/><circle cx="600" cy="250" r="92" fill="#164b9b"/><path d="M520 250 Q600 205 680 250 Q600 295 520 250" fill="none" stroke="white" stroke-width="14"/>
+<text x="600" y="610" text-anchor="middle" fill="white" font-family="Arial" font-size="72" font-weight="700">BRASIL</text>
+<text x="600" y="655" text-anchor="middle" fill="#dff7e8" font-family="Arial" font-size="25">cores • cultura • cidades • natureza</text></svg>

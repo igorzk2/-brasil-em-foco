@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#dff1ff"/><circle cx="650" cy="90" r="55" fill="#ffcf33"/>
+<path d="M0 390 Q200 330 400 390 T800 390 V500 H0Z" fill="#8dcf78"/>
+<path d="M170 380 L400 130 L630 380" fill="none" stroke="#777" stroke-width="18"/>
+<path d="M250 370 L400 170 L550 370" fill="none" stroke="#eee" stroke-width="8"/>
+<rect x="335" y="285" width="130" height="90" rx="4" fill="#f6f6f6"/>
+<path d="M270 270 H530" stroke="#555" stroke-width="10"/>
+<text x="400" y="460" text-anchor="middle" font-family="Arial" font-size="35" font-weight="700" fill="#183b5a">BRASÍLIA</text></svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#bfe9ff"/><circle cx="650" cy="90" r="55" fill="#ffd84a"/>
+<path d="M0 310 Q100 220 190 310 T380 310 T570 310 T800 300 V500 H0Z" fill="#126b3b"/>
+<path d="M0 360 Q160 300 310 370 T600 360 T800 350 V500 H0Z" fill="#0a8b54"/>
+<path d="M100 0 C180 120 260 170 370 240 C450 290 530 310 800 420" fill="none" stroke="#48b9e8" stroke-width="55"/>
+<path d="M150 330 C170 250 180 190 170 90" stroke="#074d2c" stroke-width="28" fill="none"/>
+<path d="M650 360 C620 250 640 170 700 80" stroke="#074d2c" stroke-width="32" fill="none"/>
+<text x="400" y="465" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="white">AMAZÔNIA</text></svg>
