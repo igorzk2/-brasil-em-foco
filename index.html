@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Brasil em foco: cidades, regiões, cultura, natureza, arquitetura e futebol.">
+<title>Brasil em Foco | Descubra o Brasil</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader" class="loader" aria-label="Carregando site">
+  <div class="loader-card">
+    <div class="loader-logo">★</div>
+    <div class="loader-title">BRASIL <span>EM FOCO</span></div>
+    <div class="loader-line"><i></i></div>
+    <p>Preparando uma viagem pelo Brasil...</p>
+  </div>
+</div>
+
+<header class="header">
+  <a class="logo" href="#inicio" aria-label="Brasil em Foco - início"><span>★</span> Brasil em Foco</a>
+  <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <nav class="nav" id="menu">
+    <a href="#inicio">Início</a>
+    <a href="#regioes">Regiões</a>
+    <a href="#cultura">Cultura</a>
+    <a href="#futebol">Futebol</a>
+    <a href="#novo">Brasil Hoje</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">UM PAÍS, MILHARES DE HISTÓRIAS</p>
+    <h1>Brasil em <span>Foco</span></h1>
+    <p>Uma viagem pelas paisagens, cidades, culturas, sabores, arquitetura e paixões que ajudam a contar a história do Brasil.</p>
+    <div class="actions">
+      <a class="btn primary" href="#regioes">Explorar o Brasil</a>
+      <a class="btn outline" href="#novo">Nova seção</a>
+    </div>
+  </div>
+  <img src="assets/hero-brasil.svg" alt="Ilustração com as cores e símbolos do Brasil">
+</section>
+
+<section class="intro">
+  <div><span class="number">01</span><h2>Um Brasil de muitos Brasis</h2></div>
+  <p>O país reúne diferentes paisagens, histórias e manifestações culturais. Este site organiza alguns desses elementos em uma experiência simples e responsiva.</p>
+</section>
+
+<section id="regioes" class="section">
+  <div class="section-heading"><p class="eyebrow">GEOGRAFIA</p><h2>Conheça algumas regiões e paisagens</h2><p>Escolha um cartão para ver mais informações.</p></div>
+  <div class="cards">
+    <article class="card" data-title="Brasília e Centro-Oeste" data-text="Brasília combina planejamento urbano, arquitetura moderna e a paisagem do Cerrado. O conjunto urbanístico da capital é reconhecido como Patrimônio Mundial pela UNESCO.">
+      <img src="assets/brasilia.svg" alt="Ilustração de Brasília">
+      <div class="card-body"><span>Centro-Oeste</span><h3>Brasília</h3><button class="more">Ver detalhes</button></div>
+    </article>
+    <article class="card" data-title="Amazônia" data-text="A Amazônia é marcada por uma enorme diversidade de ecossistemas, rios e espécies. É também um território de diferentes comunidades e culturas.">
+      <img src="assets/amazonas.svg" alt="Ilustração da Amazônia">
+      <div class="card-body"><span>Norte</span><h3>Amazônia</h3><button class="more">Ver detalhes</button></div>
+    </article>
+    <article class="card" data-title="Cultura brasileira" data-text="A cultura brasileira reúne influências indígenas, africanas, europeias e de muitos outros grupos, expressas na música, culinária, festas, artes e costumes.">
+      <img src="assets/cultura.svg" alt="Ilustração de cultura brasileira">
+      <div class="card-body"><span>Identidade</span><h3>Cultura</h3><button class="more">Ver detalhes</button></div>
+    </article>
+  </div>
+</section>
+
+<section id="cultura" class="band">
+  <div><p class="eyebrow">IDENTIDADE</p><h2>Cultura que se transforma</h2><p>Da música popular às festas regionais, da culinária à arte urbana, diferentes tradições convivem e se renovam.</p></div>
+  <div class="facts"><div><strong>5</strong><span>regiões</span></div><div><strong>26</strong><span>estados</span></div><div><strong>1</strong><span>Distrito Federal</span></div></div>
+</section>
+
+<section id="futebol" class="section split">
+  <img src="assets/futebol.svg" alt="Ilustração de um campo de futebol brasileiro">
+  <div><p class="eyebrow">PAIXÃO NACIONAL</p><h2>Futebol</h2><p>Clubes, campeonatos, craques e torcidas fazem do futebol uma parte marcante da cultura esportiva brasileira.</p><ul><li>Histórias e rivalidades</li><li>Craques de diferentes gerações</li><li>Futebol de rua e de estádio</li></ul></div>
+</section>
+
+<!-- NOVA SEÇÃO: criada a partir do novo item de menu -->
+<section id="novo" class="new-section">
+  <div class="new-inner">
+    <p class="eyebrow">NOVA SEÇÃO DO MENU</p>
+    <h2>Brasil Hoje</h2>
+    <p>Uma área extra para destacar cidades, arquitetura, turismo, projetos culturais ou qualquer outro tema brasileiro.</p>
+    <div class="search-box">
+      <input id="busca" type="search" placeholder="Pesquisar um tema: Brasília, cultura, futebol..." aria-label="Pesquisar no site">
+      <button id="buscar">Pesquisar</button>
+    </div>
+    <div id="resultado" class="result" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-heading"><p class="eyebrow">DESIGN</p><h2>Paleta inspirada no Brasil</h2><p>O visual usa verde, amarelo, azul e tons neutros, mantendo contraste e hierarquia.</p></div>
+  <div class="palette"><div class="swatch green">#009C3B</div><div class="swatch yellow">#FFDF00</div><div class="swatch blue">#164B9B</div><div class="swatch dark">#073B24</div><div class="swatch light">#F5F1E8</div></div>
+</section>
+</main>
+
+<footer><strong>Brasil em Foco</strong><span>Projeto acadêmico • HTML + CSS + JavaScript</span></footer>
+<button id="topo" class="topo" aria-label="Voltar ao topo">↑</button>
+
+<div id="modal" class="modal" aria-hidden="true"><div class="modal-content"><button class="close" aria-label="Fechar">×</button><p class="eyebrow">DESTAQUE</p><h2 id="modal-title"></h2><p id="modal-text"></p></div></div>
+<script src="script.js"></script>
+</body>
+</html>
